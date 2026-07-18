@@ -1,0 +1,24 @@
+{
+  "name": "pi-npm-stats",
+  "version": "0.1.0",
+  "description": "npm package download/stats panel for pi — author search, diagnostics table",
+  "keywords": [
+    "pi",
+    "pi-package",
+    "pi-extension",
+    "npm",
+    "downloads",
+    "stats"
+  ],
+  "license": "MIT",
+  "author": "ouzhenkun",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
