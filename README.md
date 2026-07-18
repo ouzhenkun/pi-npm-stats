@@ -2,7 +2,6 @@
 
 **npm package download/stats panel for pi — author search, top-N table, progressive load, and local cache.**
 
-[![npm version](https://img.shields.io/npm/v/pi-npm-stats?style=for-the-badge)](https://www.npmjs.com/package/pi-npm-stats)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ## Why
@@ -12,13 +11,14 @@ Checking npm downloads one package at a time breaks flow. pi-npm-stats pulls an 
 ## Install
 
 ```bash
-pi install npm:pi-npm-stats
+pi install github:ouzhenkun/pi-npm-stats
 ```
 
 Local development:
 
 ```bash
-pi install ./pkgs/pi-npm-stats
+git clone https://github.com/ouzhenkun/pi-npm-stats.git
+pi install ./pi-npm-stats
 ```
 
 ## Commands
